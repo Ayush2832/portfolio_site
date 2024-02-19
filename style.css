@@ -1,0 +1,136 @@
+
+html {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: Lucida Console;
+  }
+  /* Navbar */
+  nav, .nav-links{
+    display:flex; 
+  }
+  nav{
+    justify-content: space-around;
+    align-items: center;
+    height : 100px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    border-radius: 15px;
+  }
+  .nav-links{
+    gap:50px;
+    list-style: none;
+    font-size: 18px;
+  }
+  
+  a{
+    color: black;
+    text-decoration:none;
+  }
+  a:hover{
+    opacity:0.5;
+  }
+  a:active{
+    opacity:0.3;
+  }
+  .logo{
+    font-size: 30px;
+    cursor: default;
+  }
+
+  #photo_section{
+    margin-top:100px;
+    display:flex;
+    justify-content: center;
+    gap: 200px;
+    
+  }
+  .profile_image_div{
+    margin-top:20px;
+    display: inline-block;
+    margin-left:200px;
+  }
+  .profile_image{
+    max-width: 300px;
+    border-radius:200px;
+    box-shadow: 2px 2px 5px 0px rgb(174, 171, 171);
+  }
+
+  .text_div1{
+    padding-top: 100px;
+    width:500px;
+  }
+  .para1{
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .buttons{
+    text-align: center;
+    padding:20px;
+  }
+  .resume_button{
+    padding: 15px;
+    border:black 2px solid;
+    font-family:Lucida Console;
+    border-radius: 30px;
+    background-color: white;
+    font-weight: bold;
+    transition:.4s;
+    letter-spacing: 2px;
+  }
+  .resume_button:hover{
+    opacity: 0.7;
+    color:white;
+    background-color: black;
+  }
+  .connect_div{
+    margin-top:100px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .social_sec{
+    margin-top: 18px;
+  }
+  .social_div{
+    text-align: center;
+  }
+  .social_images{
+    max-width: 50px;
+    margin:10px;
+    cursor:pointer;
+  }
+
+  .social_images:hover{
+    opacity: .6;
+  }
+  .social_images:active{
+    opacity: .5;
+  }
+
+  .end_sec{
+    display: block;
+    height: 50px;
+  }
+  
+  .about_tag{
+    margin:50px;
+    text-align: right;
+    text-decoration:underline;
+    
+    font-size:20px;
+  }
+  .about_tag:hover{
+    cursor: pointer;
+    text-decoration: none;
+    opacity: .6;
+  }
+  .about_tag:active{
+    opacity: .5;
+  }
+
