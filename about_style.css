@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    font-family: Lucida Console;
+  }
+
+  /* Nav bar */
+  nav{
+    align-items: center;
+    height : 100px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    border-radius: 15px;
+    margin-bottom: 30px;
+  }
+
+  .about_div{
+    padding: 40px;
+    text-align: center;
+  }
+  .about_p{
+    font-size: 30px;
+    cursor: default;
+  }
+  #aboutme_sec{
+    gap: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  .aboutme_div{
+    text-align: center;
+
+  }
