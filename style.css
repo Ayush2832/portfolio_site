@@ -1,3 +1,46 @@
+/* * {
+  border: 2px solid;
+} */
+
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  nav {
+    height: auto; /* Adjust height to accommodate smaller screens */
+    flex-direction: column; /* Stack navigation items vertically */
+    text-align: center; /* Center-align navigation items */
+  }
+  
+  .nav-links {
+    gap: 20px; /* Decrease gap between navigation links */
+    font-size: 16px; /* Decrease font size for smaller screens */
+  }
+
+  #photo_section {
+    flex-direction: column; /* Stack profile image and text vertically */
+    align-items: center; /* Center-align profile image and text */
+    gap: 50px; /* Decrease gap between profile image and text */
+    margin-top: 50px; /* Decrease top margin */
+  }
+
+  .profile_image_div {
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .text_div1 {
+    width: auto; /* Remove fixed width */
+    padding: 0 20px; /* Add padding to text container */
+  }
+
+  .social_images {
+    max-width: 40px; /* Decrease size of social media icons */
+  }
+
+  .about_tag {
+    margin: 20px 0; /* Decrease margin */
+    text-align: center; /* Center-align "Next page" link */
+  }
+}
+
 
 html {
     height: 100%;
@@ -47,13 +90,15 @@ html {
     margin-top:100px;
     display:flex;
     justify-content: center;
-    gap: 200px;
+    align-items: center;
+    /* gap: 200px; */
     
   }
   .profile_image_div{
-    margin-top:20px;
-    display: inline-block;
-    margin-left:200px;
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .profile_image{
     max-width: 300px;
@@ -62,6 +107,7 @@ html {
   }
 
   .text_div1{
+    flex:1;
     padding-top: 100px;
     width:500px;
   }
